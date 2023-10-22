@@ -44,17 +44,13 @@ public class Abstractcomponent  {
 		Thread.sleep(1000);
 //		WebDriverWait wait = new WebDriverWait(driver, Duration.ofSeconds(5));
 //		wait.until(ExpectedConditions.invisibilityOf(ele));
-<<<<<<< HEAD
-			}
-=======
-		System.out.println();
-		System.out.println();
-		System.out.println();
-		System.out.println();
+		
 
+			}
+
+		
 	}
->>>>>>> 66d399c6ac92fbf4dcc84210a2809671cf95ae83
-	
+
 	public CartPage goToCartPage()
 	{
 		carHeader.click();
