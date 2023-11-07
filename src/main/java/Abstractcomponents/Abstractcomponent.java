@@ -15,7 +15,9 @@ import Satyagrpid.saiaid.pageobjects.CartPage;
 
 public class Abstractcomponent  {
 
+
 	public WebDriver driver;
+	//this is the comment from revanth lappy
 
 	public Abstractcomponent(WebDriver driver) {
 		// TODO Auto-generated constructor stub
@@ -45,9 +47,11 @@ public class Abstractcomponent  {
 //		WebDriverWait wait = new WebDriverWait(driver, Duration.ofSeconds(5));
 //		wait.until(ExpectedConditions.invisibilityOf(ele));
 		//28102023
+
 		System.out.println("1");
 		System.out.println("2");
 		System.out.println("3");
+
 		
 
 			}
