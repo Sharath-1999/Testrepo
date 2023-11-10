@@ -18,7 +18,7 @@ public class ErrorValidations extends BaseTest{
 		ProductCatalogue productCatalogue = landingpage.loginApplication("sharath9911@gmail.com", "Sharath@2434");
 		//div[@aria-label='Incorrect email or password.']
 		//.ng-tns-c4-40.ng-star-inserted.ng-trigger.ng-trigger-flyInOut.ngx-toastr.toast-error
-		Assert.assertEquals("Incorrect email or password.", landingpage.getErrorMessage());
+		Assert.assertEquals("Incorrect email or password1.", landingpage.getErrorMessage());
 		Thread.sleep(1000);
 }
 	

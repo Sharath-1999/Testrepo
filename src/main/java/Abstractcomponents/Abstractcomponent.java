@@ -47,17 +47,10 @@ public class Abstractcomponent  {
 //		WebDriverWait wait = new WebDriverWait(driver, Duration.ofSeconds(5));
 //		wait.until(ExpectedConditions.invisibilityOf(ele));
 
-		//28102023
-
-		System.out.println("1");
-		System.out.println("2");
-		System.out.println("3");
-		
-
 			}
 
 		
-	}
+	
 
 	public CartPage goToCartPage()
 	{

@@ -53,10 +53,12 @@ public class SubmitOrder extends BaseTest {
 	
 	
 	
-	@Test(dependsOnMethods={"submitOrderTest"})
+	@Test//(dependsOnMethods={"submitOrderTest"})
 	public void verifyOrderHistory()
 	{
 		System.out.println("This is a test to check depends on methods concept");
 	}
+	
+	
 
 }
