@@ -52,7 +52,7 @@ public class Abstractcomponent  {
 			}
 
 		
-	}
+	
 
 	public CartPage goToCartPage()
 	{
